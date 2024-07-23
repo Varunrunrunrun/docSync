@@ -5,10 +5,11 @@ import { SignIn } from "@clerk/nextjs";
 const SignInPage = () => {
   return (
     <main className="auth-page px-4">
-      <LandingPage />
+      {/* <LandingPage />
       <div className="md:w-fit w-full flex justify-center items-center">
         <SignIn />
-      </div>
+      </div> */}
+      <SignIn />
     </main>
   );
 };
